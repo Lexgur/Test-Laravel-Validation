@@ -14,6 +14,7 @@ class Uppercase implements Rule
      * @return bool
      */
     public function passes($attribute, $value): bool
+
     {
         return ucfirst($value) === $value;
     }

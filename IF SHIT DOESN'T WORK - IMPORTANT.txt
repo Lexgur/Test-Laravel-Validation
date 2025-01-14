@@ -1,0 +1,20 @@
+try these : 
+
+php artisan clear-compiled
+composer dump-autoload
+composer update --no-scripts
+
+|| 
+
+composer dump-autoload
+composer install --no-scripts
+
+make sure everything works now as expected (no errors!)
+
+composer update
+
+
+
+mysql:
+user-root
+pass-root123
